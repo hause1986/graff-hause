@@ -7,6 +7,7 @@
 		<meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
 		<link type='image/x-icon' rel='shortcut icon'  href='./favicon.ico' />
 		
+		<script type='text/javascript' src='<?=$SITE?>/js/jquery.js'></script>
 		<script type='text/javascript' src='<?=$SITE?>/js/main.js'></script>		
 		<script type='text/javascript' src='<?=$SITE?>/js/script.js'></script>
 
