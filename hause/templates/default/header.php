@@ -5,7 +5,7 @@
 		<?$GLOBALS['SETTING']['TITLE'] = 'Graff Hause'?>
 		<meta name='viewport' content='width=device-width, initial-scale=1.0'>
 		<meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
-		<link type='image/x-icon' rel='shortcut icon'  href='./favicon.ico' />
+		<link type='image/x-icon' rel='shortcut icon'  href='/favicon.ico' />
 		
 		<script type='text/javascript' src='<?=$SITE?>/js/jquery.js'></script>
 		<script type='text/javascript' src='<?=$SITE?>/js/main.js'></script>		
