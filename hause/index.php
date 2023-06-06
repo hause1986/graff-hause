@@ -1,3 +1,3 @@
 <head>
-<meta http-equiv="REFRESH" content="0;URL=/admin/index.php">
+<meta http-equiv="REFRESH" content="0;URL=/index.php">
 </head>

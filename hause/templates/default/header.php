@@ -6,15 +6,10 @@
 		<meta name='viewport' content='width=device-width, initial-scale=1.0'>
 		<meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
 		<link type='image/x-icon' rel='shortcut icon'  href='./favicon.ico' />
-		<?/*?>
-		<script type='text/javascript' src='<?=$SITE?>/js/jquery.js'></script>
-		<script type='text/javascript' src='<?=$SITE?>/js/fancybox/fancybox.js'></script>
-		<link type='text/css' rel='stylesheet' href='<?=$SITE?>/js/fancybox/fancybox.css' />		
-		<script src='<?=$SITE?>/js/class.sendAjax.js'></script>
 		
 		<script type='text/javascript' src='<?=$SITE?>/js/main.js'></script>		
 		<script type='text/javascript' src='<?=$SITE?>/js/script.js'></script>
-		<?*/?>
+
 		<link type='text/css' rel='stylesheet' href='<?=$SITE?>/css/main.css'>
 		<link type='text/css' rel='stylesheet' href='<?=$SITE?>/css/style.css'>		
 	</head>

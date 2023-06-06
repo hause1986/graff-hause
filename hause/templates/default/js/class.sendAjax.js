@@ -1,13 +1,15 @@
-SendAjax = function(){
+var SendAjax = function(){
 	this.url = null
 	this.arrLog = null
 }
+
 SendAjax.prototype.url = function( url ){
 	if( url != '' ){
 		url = window.location.href
 	}
 	this.url = url
 }
+
 SendAjax.prototype.send = function( aJdata, aJsuccess, aJerror ){
 	var sendAjaxObj = this
 	var success = []
