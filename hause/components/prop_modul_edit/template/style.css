@@ -1,0 +1,8 @@
+.list_prop_enum input{
+	width:340px;
+}
+.list_prop_enum .text.id{
+	width:40px;
+	padding:0;
+	text-align: center;
+}

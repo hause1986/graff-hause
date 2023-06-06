@@ -1,0 +1,70 @@
+*{
+	box-sizing: border-box;	
+}
+body{
+	height: 100%;
+	margin:0;
+	padding:0;
+	background-color: #eeeeee;
+	font-family: Trebuchet MS;
+	font-size: 16px;
+	color: #000000;
+	line-height: 25px;
+	font-weight:300;
+}
+.row::after{
+	clear: both;
+}
+.row::after,
+.row::before{
+	display: table;
+	content: " ";
+}
+.col-md{
+	min-height: 1px;
+	float:left;
+	width: 100%;			
+}		
+a {
+	color: #337ab7;
+	font-weight:700;	
+}
+a:hover {			
+	text-decoration: none;
+}
+h1,
+.h1{			
+	font-size: 38px;
+	line-height: normal;
+	font-weight:700;
+	margin:0;
+	padding:0;
+}
+.fild {
+    margin: 10px 0;
+}
+input[type=text],
+input[type=password]{
+    height: 40px;
+    width: 100%;
+}
+textarea{
+    height: 120px;
+    width: 100%;	
+}
+select{
+    height: 40px;
+    width: 100%;
+	font-size: 16px;
+}
+select[multiple]{
+	height: 120px;
+}
+.dis_flex{
+	display: flex;
+    justify-content: space-between;
+}
+.dis_flex_left{
+	display: flex;
+    justify-content: space-between;	
+}

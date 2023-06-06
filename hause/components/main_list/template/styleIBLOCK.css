@@ -1,0 +1,14 @@
+.table .td.control{
+	width: 160px;
+}
+.table .td.list,
+.table .td.setting{
+    width: 40px;
+    text-align: center;
+}
+.table .td.list:hover, 
+.table .td.setting:hover {
+    background-color: #3498DB;
+    color: #ffffff;
+    cursor: pointer;
+}
