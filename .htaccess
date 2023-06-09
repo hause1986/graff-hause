@@ -1,15 +1,8 @@
-Options -Indexes 
-ErrorDocument 404 /404.php
-
 <IfModule mod_rewrite.c>
 	Options +FollowSymLinks
 	RewriteEngine on 
 	RewriteCond %{REQUEST_FILENAME} !-f
 	RewriteCond %{REQUEST_FILENAME} !-l
 	RewriteCond %{REQUEST_FILENAME} !-d 
-	RewriteRule ^(.*)$ /hause/core/urlrouter.php [L]	
+	RewriteRule ^(.*)$ /404.php [L]	
 </IfModule>
-
-php_value display_errors 1
-php_value display_startup_errors 1
-php_value error_reporting E_ALL
