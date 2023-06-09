@@ -59,15 +59,13 @@ $htmlDom = phpQuery::newDocument(
 	rFile( $arParFiles['HTML'] )
 );
 
-foreach( $arSelector as $v ){
-	$flag = false;
-	$res = pq( $htmlDom->find( $v ) );
-	echo '<pre>';
-	echo $v;
-	print_r( $res );
-	echo '</pre>';
-	bdeak;
+foreach( $arSelector as $v ){	
+	if( pq( $htmlDom->find( $v ) ) ){
+		echo '<div>';
+		echo $v;
+		echo '</div>';
+	}	
 }
 
 
-?>
+?>0
